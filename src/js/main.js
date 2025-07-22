@@ -59,7 +59,6 @@ form.addEventListener("submit", (event) => {
 
     if (query ==="") {
         iziToast.error({
-          title: 'Error',
           message: 'Please enter a search term.',
           position: 'topRight',
           backgroundColor: '#EF4040',
